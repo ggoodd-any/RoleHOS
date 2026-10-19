@@ -1,0 +1,74 @@
+[
+  {
+    "variant": "full",
+    "iterations": 2,
+    "exit_code": 0,
+    "checkpoint_created": true
+  },
+  {
+    "variant": "without_both_zero",
+    "iterations": 2,
+    "exit_code": 0,
+    "checkpoint_created": true
+  },
+  {
+    "variant": "without_ricd",
+    "iterations": 2,
+    "exit_code": 0,
+    "checkpoint_created": true
+  },
+  {
+    "variant": "without_sfsc_zero",
+    "iterations": 2,
+    "exit_code": 0,
+    "checkpoint_created": true
+  },
+  {
+    "variant": "without_foreground_conditions",
+    "iterations": 2,
+    "exit_code": 0,
+    "checkpoint_created": true
+  },
+  {
+    "variant": "p_only_zero",
+    "iterations": 2,
+    "exit_code": 0,
+    "checkpoint_created": true
+  },
+  {
+    "variant": "dense_only",
+    "iterations": 2,
+    "exit_code": 0,
+    "checkpoint_created": true
+  },
+  {
+    "variant": "global_only",
+    "iterations": 2,
+    "exit_code": 0,
+    "checkpoint_created": true
+  },
+  {
+    "variant": "p_only_weighted",
+    "iterations": 2,
+    "exit_code": 0,
+    "checkpoint_created": true
+  },
+  {
+    "variant": "token_ffn",
+    "iterations": 2,
+    "exit_code": 0,
+    "checkpoint_created": true
+  },
+  {
+    "variant": "Q1_fixed5_noagg",
+    "iterations": 2,
+    "exit_code": 0,
+    "checkpoint_created": true
+  },
+  {
+    "variant": "Q0_hungarian5_noagg",
+    "iterations": 2,
+    "exit_code": 0,
+    "checkpoint_created": true
+  }
+]

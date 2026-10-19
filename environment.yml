@@ -1,0 +1,10 @@
+name: rolehos
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.20
+  - pip
+  - pip:
+      - torch==2.8.0
+      - torchvision==0.23.0
+      - -r requirements-demo.txt

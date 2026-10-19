@@ -1,0 +1,156 @@
+[
+  {
+    "source": "LiteHOSV2/mmseg/__init__.py",
+    "source_sha256": "be6dfbe36f0013222accf78ddebce11ec82cd60dad97964b746c5bfb8e8ec585",
+    "release": "third_party/mmseg/__init__.py",
+    "release_sha256": "be6dfbe36f0013222accf78ddebce11ec82cd60dad97964b746c5bfb8e8ec585",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/version.py",
+    "source_sha256": "fc8f322daf1548c7bb5d9a40908b0a3c8378c374317ff0695666cf1908bffc67",
+    "release": "third_party/mmseg/version.py",
+    "release_sha256": "fc8f322daf1548c7bb5d9a40908b0a3c8378c374317ff0695666cf1908bffc67",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/registry/__init__.py",
+    "source_sha256": "fa549967a94178875ec5ac16755662a6b9880d59a5f6718819ae9701a423895d",
+    "release": "third_party/mmseg/registry/__init__.py",
+    "release_sha256": "fa549967a94178875ec5ac16755662a6b9880d59a5f6718819ae9701a423895d",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/registry/registry.py",
+    "source_sha256": "aeb3b34d123fabf04781772589e45e416d0e9f5341f89f5161f6509f3676f938",
+    "release": "third_party/mmseg/registry/registry.py",
+    "release_sha256": "aeb3b34d123fabf04781772589e45e416d0e9f5341f89f5161f6509f3676f938",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/structures/seg_data_sample.py",
+    "source_sha256": "2630f0082aabbaf6fe647823479889c5ca1e28e79aef99ba9ab0752f332ffd4b",
+    "release": "third_party/mmseg/structures/seg_data_sample.py",
+    "release_sha256": "2630f0082aabbaf6fe647823479889c5ca1e28e79aef99ba9ab0752f332ffd4b",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/utils/typing_utils.py",
+    "source_sha256": "afbb2516dc34f21d020b9a708e283defced8bfe95ab1f5036d5eda0948c95f04",
+    "release": "third_party/mmseg/utils/typing_utils.py",
+    "release_sha256": "afbb2516dc34f21d020b9a708e283defced8bfe95ab1f5036d5eda0948c95f04",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/utils/misc.py",
+    "source_sha256": "2d3ba7e4ecd7e2c31133824480819a82a3854498d8e44d918aa3210ccb783ccd",
+    "release": "third_party/mmseg/utils/misc.py",
+    "release_sha256": "2d3ba7e4ecd7e2c31133824480819a82a3854498d8e44d918aa3210ccb783ccd",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/utils/io.py",
+    "source_sha256": "e65f7e6eed56d20aafc6e52472a35323fd068d847e7405a9c66ee2b023771b14",
+    "release": "third_party/mmseg/utils/io.py",
+    "release_sha256": "e65f7e6eed56d20aafc6e52472a35323fd068d847e7405a9c66ee2b023771b14",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/datasets/basesegdataset.py",
+    "source_sha256": "baba13da1efe3274b9bf35f2a9c3f06b1956bb5f64563f43544cc148ab4851bd",
+    "release": "third_party/mmseg/datasets/basesegdataset.py",
+    "release_sha256": "baba13da1efe3274b9bf35f2a9c3f06b1956bb5f64563f43544cc148ab4851bd",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/datasets/dataset_wrappers.py",
+    "source_sha256": "88d68ce1b8d819aa6aab11f9e3cddff6b73f84b3450937facd842ddda6f98e7b",
+    "release": "third_party/mmseg/datasets/dataset_wrappers.py",
+    "release_sha256": "88d68ce1b8d819aa6aab11f9e3cddff6b73f84b3450937facd842ddda6f98e7b",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/datasets/interformer_dataset.py",
+    "source_sha256": "fa498900d21edc322cc085bf795118cb5b111d9706b2b9878fa24ae226f01ff6",
+    "release": "third_party/mmseg/datasets/interformer_dataset.py",
+    "release_sha256": "fa498900d21edc322cc085bf795118cb5b111d9706b2b9878fa24ae226f01ff6",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/datasets/transforms/loading.py",
+    "source_sha256": "048e44a4101491883d80fdee31026760ec9e3cde1e04ba84542ac7db69f13c28",
+    "release": "third_party/mmseg/datasets/transforms/loading.py",
+    "release_sha256": "048e44a4101491883d80fdee31026760ec9e3cde1e04ba84542ac7db69f13c28",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/datasets/transforms/transforms.py",
+    "source_sha256": "49e024f344c0e75aaa13b564cdc94ea2b762558dae6b941dd41fad8a49d83d3f",
+    "release": "third_party/mmseg/datasets/transforms/transforms.py",
+    "release_sha256": "49e024f344c0e75aaa13b564cdc94ea2b762558dae6b941dd41fad8a49d83d3f",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/datasets/transforms/formatting.py",
+    "source_sha256": "9731dd78d7f69d600fc0cbd1eb1c70fe1d320641ce53be47123865027cb51b22",
+    "release": "third_party/mmseg/datasets/transforms/formatting.py",
+    "release_sha256": "9731dd78d7f69d600fc0cbd1eb1c70fe1d320641ce53be47123865027cb51b22",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/models/data_preprocessor.py",
+    "source_sha256": "39f84ba084fc02b6d198b8b07638b06f5fcb8d4523c60289ee7e608c0cfcecbd",
+    "release": "third_party/mmseg/models/data_preprocessor.py",
+    "release_sha256": "39f84ba084fc02b6d198b8b07638b06f5fcb8d4523c60289ee7e608c0cfcecbd",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/models/backbones/meta_convnext_backbone.py",
+    "source_sha256": "92c886a9ba8f940354f103346d087823e5719d8946793f2758b8cd7f01259840",
+    "release": "third_party/mmseg/models/backbones/meta_convnext_backbone.py",
+    "release_sha256": "13df0bb846d1f91828eb5c6c64d62492134914c2786b49bd54ea88903e40cb7c",
+    "modified": true
+  },
+  {
+    "source": "LiteHOSV2/mmseg/models/decode_heads/litehosv2_relation_state_heads.py",
+    "source_sha256": "fd0ef3b2eea45d6637befe7ee32dc6af31bd4cc1c1bab951676de9896cf6ef5a",
+    "release": "third_party/mmseg/models/decode_heads/litehosv2_relation_state_heads.py",
+    "release_sha256": "1d9a8ee806894449d5414fa8b767992a90d683a1d2e302450ca3f5d241c5db2d",
+    "modified": true
+  },
+  {
+    "source": "LiteHOSV2/mmseg/models/segmentors/base.py",
+    "source_sha256": "c4a4cee6bc707c75542de68f29a9ce0b495e5ad0009807bd2c0e726295de1700",
+    "release": "third_party/mmseg/models/segmentors/base.py",
+    "release_sha256": "c4a4cee6bc707c75542de68f29a9ce0b495e5ad0009807bd2c0e726295de1700",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/models/segmentors/litehosv2_relation_state_segmentor.py",
+    "source_sha256": "810b3140a0b9ccc18ac266d7956b6cef858de78b192ee437815ac3d6be0b8a90",
+    "release": "third_party/mmseg/models/segmentors/litehosv2_relation_state_segmentor.py",
+    "release_sha256": "eb6964c5ed82272ff1681b885810ad24d3c792ac007b83017b7fb4ff3c756f26",
+    "modified": true
+  },
+  {
+    "source": "LiteHOSV2/mmseg/models/utils/relation_state.py",
+    "source_sha256": "f20c51f75c09b550a1f9124f9c22910e1e7144cf32b80667836ac1fac3f17cb9",
+    "release": "third_party/mmseg/models/utils/relation_state.py",
+    "release_sha256": "f20c51f75c09b550a1f9124f9c22910e1e7144cf32b80667836ac1fac3f17cb9",
+    "modified": false
+  },
+  {
+    "source": "LiteHOSV2/mmseg/models/utils/point_sample.py",
+    "source_sha256": "3e0c9dae28156f6d5d8b69e3032dd25e4c42a1ef7da031167fc6b8371f02cee4",
+    "release": "third_party/mmseg/models/utils/point_sample.py",
+    "release_sha256": "51ef8e6b51534141750c7d1acc4e6d9e5c6b640f79592a44a9a9dfad1e5a7a15",
+    "modified": true
+  },
+  {
+    "source": "LiteHOSV2/mmseg/models/utils/wrappers.py",
+    "source_sha256": "5b1f2676f506dde9b483b1aba43cb5e3b441887642ed955dfea9b75123c3fd0c",
+    "release": "third_party/mmseg/models/utils/wrappers.py",
+    "release_sha256": "5b1f2676f506dde9b483b1aba43cb5e3b441887642ed955dfea9b75123c3fd0c",
+    "modified": false
+  }
+]

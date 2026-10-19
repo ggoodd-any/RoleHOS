@@ -1,0 +1,10 @@
+{
+  "variants": [
+    "full",
+    "without_ricd"
+  ],
+  "seed": 0,
+  "count_per_split": 1,
+  "partial_only": true,
+  "exit_success": true
+}

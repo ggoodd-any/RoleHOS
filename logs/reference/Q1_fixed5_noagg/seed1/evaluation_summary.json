@@ -1,0 +1,1070 @@
+{
+  "config": "${RESEARCH_ROOT}/paper/TCSVT/experiments/configs/supplemental/Q1_fixed5_noagg_seed1.py",
+  "checkpoint": "${RESEARCH_ROOT}/paper/TCSVT/experiments/runs/supplemental/Q1_fixed5_noagg_seed1/iter_20000.pth",
+  "data_root": "${EGOHOS_ROOT}",
+  "use_depth_prior": false,
+  "save_prototype_attn": false,
+  "device": "cuda:0",
+  "image_size": [
+    448,
+    448
+  ],
+  "threshold": 0.5,
+  "prediction_mode": "auto",
+  "fixed5_presence_gate": false,
+  "presence_gate_rule": null,
+  "splits": {
+    "val": {
+      "samples": 1124,
+      "mean_iou4": 0.7546819448471069,
+      "iou4": {
+        "left_hand": 0.9199084639549255,
+        "right_hand": 0.9304497838020325,
+        "left_object": 0.6048039197921753,
+        "right_object": 0.5635656714439392
+      },
+      "valid_iou4": {
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true
+      },
+      "pred_area4": {
+        "left_hand": 0.04564068466424942,
+        "right_hand": 0.05157073214650154,
+        "left_object": 0.03434329852461815,
+        "right_object": 0.02796016074717045
+      },
+      "target_area4": {
+        "left_hand": 0.04572264477610588,
+        "right_hand": 0.05172044038772583,
+        "left_object": 0.040044672787189484,
+        "right_object": 0.032606326043605804
+      },
+      "compat6_miou": 0.7252426147460938,
+      "foreground_miou": 0.6764742732048035,
+      "compat6_miou_with_bg": 0.7252426147460938,
+      "compat6_fg_miou": 0.6764742732048035,
+      "compat6_iou": {
+        "background": 0.9690847396850586,
+        "left_hand": 0.920680820941925,
+        "right_hand": 0.9312176704406738,
+        "left_object": 0.5449423789978027,
+        "right_object": 0.4575362503528595,
+        "two_hand_object": 0.5279941558837891
+      },
+      "compat6_valid": {
+        "background": true,
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true,
+        "two_hand_object": true
+      },
+      "compat6_pixel_acc": 0.9664877653121948,
+      "careego_style_miou": 0.7080671787261963,
+      "careego_style_iou": {
+        "left_hand": 0.9199084639549255,
+        "right_hand": 0.9304497838020325,
+        "left_object": 0.6048039197921753,
+        "right_object": 0.5635656714439392,
+        "two_hand_object": 0.5216082334518433
+      },
+      "careego_style_valid": {
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true,
+        "two_hand_object": true
+      },
+      "careego_style_pred_area": {
+        "left_hand": 0.04564068466424942,
+        "right_hand": 0.05157073214650154,
+        "left_object": 0.03434329852461815,
+        "right_object": 0.02796016074717045,
+        "two_hand_object": 0.015421419404447079
+      },
+      "careego_style_target_area": {
+        "left_hand": 0.04572264477610588,
+        "right_hand": 0.05172044038772583,
+        "left_object": 0.040044672787189484,
+        "right_object": 0.032606326043605804,
+        "two_hand_object": 0.017571086063981056
+      },
+      "fg5_miou": 0.6666824221611023,
+      "fg5_iou": {
+        "left_hand": 0.9199084639549255,
+        "right_hand": 0.9304497838020325,
+        "left_object": 0.5276010036468506,
+        "right_object": 0.43384456634521484,
+        "two_hand_object": 0.5216082334518433
+      },
+      "fg5_valid": {
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true,
+        "two_hand_object": true
+      },
+      "fg5_pred_area": {
+        "left_hand": 0.04564068466424942,
+        "right_hand": 0.05157073214650154,
+        "left_object": 0.019004017114639282,
+        "right_object": 0.012566584162414074,
+        "two_hand_object": 0.015421419404447079
+      },
+      "fg5_target_area": {
+        "left_hand": 0.04572264477610588,
+        "right_hand": 0.05172044038772583,
+        "left_object": 0.022473588585853577,
+        "right_object": 0.015035239048302174,
+        "two_hand_object": 0.017571086063981056
+      },
+      "pa_soft_slot": {
+        "metric_version": "pa_soft_slot_v1_threshold_free",
+        "definition": "For GT-present image-class pairs, TP=sum(p*g), FN=sum((1-p)*g), FP=sum(p*(1-g)); soft_iou=TP/(TP+FP+FN), soft_dice=2TP/(2TP+FP+FN). GT-absent pairs are not rewarded; they report absent_fp_mass=sum(p)/valid_pixels.",
+        "macro": {
+          "pa_soft_iou": 0.706967294216156,
+          "pa_soft_dice": 0.7652187347412109,
+          "tp_recall": 0.7605010867118835,
+          "fn_mass": 0.2394988089799881,
+          "present_fp_mass": 0.0029349883552640676,
+          "present_error_mass": 0.12121694535017014,
+          "absent_fp_mass": 0.0034632228780537844
+        },
+        "per_class": {
+          "left_hand": {
+            "present_samples": 1015,
+            "absent_samples": 109,
+            "soft_iou": 0.9031370282173157,
+            "soft_dice": 0.939356803894043,
+            "tp_recall": 0.9372271299362183,
+            "fn_mass": 0.06277278810739517,
+            "present_fp_mass": 0.0020862119272351265,
+            "present_error_mass": 0.03242947906255722,
+            "absent_fp_mass": 0.002477423520758748
+          },
+          "right_hand": {
+            "present_samples": 1056,
+            "absent_samples": 68,
+            "soft_iou": 0.9123185873031616,
+            "soft_dice": 0.9481258988380432,
+            "tp_recall": 0.9475293159484863,
+            "fn_mass": 0.05247043818235397,
+            "present_fp_mass": 0.0020370662678033113,
+            "present_error_mass": 0.02725374326109886,
+            "absent_fp_mass": 0.002577028004452586
+          },
+          "left_object": {
+            "present_samples": 536,
+            "absent_samples": 588,
+            "soft_iou": 0.5841624140739441,
+            "soft_dice": 0.6562570333480835,
+            "tp_recall": 0.6479649543762207,
+            "fn_mass": 0.35203486680984497,
+            "present_fp_mass": 0.004253895953297615,
+            "present_error_mass": 0.17814451456069946,
+            "absent_fp_mass": 0.003920294810086489
+          },
+          "right_object": {
+            "present_samples": 654,
+            "absent_samples": 470,
+            "soft_iou": 0.5585359930992126,
+            "soft_dice": 0.6382853388786316,
+            "tp_recall": 0.6417972445487976,
+            "fn_mass": 0.3582024872303009,
+            "present_fp_mass": 0.0028686122968792915,
+            "present_error_mass": 0.18053562939167023,
+            "absent_fp_mass": 0.004079291597008705
+          },
+          "two_hand_object": {
+            "present_samples": 305,
+            "absent_samples": 819,
+            "soft_iou": 0.5766822099685669,
+            "soft_dice": 0.644068717956543,
+            "tp_recall": 0.62798672914505,
+            "fn_mass": 0.3720134198665619,
+            "present_fp_mass": 0.0034291548654437065,
+            "present_error_mass": 0.1877213418483734,
+            "absent_fp_mass": 0.004262076690793037
+          }
+        }
+      },
+      "coarse_iou": 0.16627676784992218,
+      "coarse_area": 0.5769985914230347,
+      "mask_union_area": 0.1439175009727478,
+      "relation": {
+        "object_without_hand_rate": 0.008053719066083431,
+        "invalid_two_hand_object_rate": 0.0002457098744343966,
+        "hand_overlap_rate": 2.4761589884292334e-05,
+        "hand_object_overlap_rate": 0.00011344405356794596,
+        "relation_violation_score": 0.029498405754566193,
+        "role_confusions": {
+          "LH_to_RH": 0.00432075560092926,
+          "RH_to_LH": 0.007164062932133675,
+          "LO_to_RO": 0.008391773328185081,
+          "RO_to_LO": 0.011633875779807568,
+          "TO_to_LO": 0.07589374482631683,
+          "TO_to_RO": 0.056489039212465286,
+          "LO_to_TO": 0.04880049452185631,
+          "RO_to_TO": 0.07884825021028519
+        }
+      },
+      "uncertainty_quintile_edges": [
+        0.9589643380556913,
+        0.979970688812897,
+        0.9897410845139228,
+        0.9956033219345384
+      ]
+    },
+    "test_indomain": {
+      "samples": 1126,
+      "mean_iou4": 0.7733598351478577,
+      "iou4": {
+        "left_hand": 0.9263412952423096,
+        "right_hand": 0.9378046989440918,
+        "left_object": 0.6335706114768982,
+        "right_object": 0.5957227349281311
+      },
+      "valid_iou4": {
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true
+      },
+      "pred_area4": {
+        "left_hand": 0.04711911082267761,
+        "right_hand": 0.05266274884343147,
+        "left_object": 0.03757737576961517,
+        "right_object": 0.031062019988894463
+      },
+      "target_area4": {
+        "left_hand": 0.04697294905781746,
+        "right_hand": 0.05244427174329758,
+        "left_object": 0.044381022453308105,
+        "right_object": 0.03337443992495537
+      },
+      "compat6_miou": 0.7356107234954834,
+      "foreground_miou": 0.6891056895256042,
+      "compat6_miou_with_bg": 0.7356107234954834,
+      "compat6_fg_miou": 0.6891056895256042,
+      "compat6_iou": {
+        "background": 0.9681360721588135,
+        "left_hand": 0.926352858543396,
+        "right_hand": 0.9380561709403992,
+        "left_object": 0.47465240955352783,
+        "right_object": 0.5346343517303467,
+        "two_hand_object": 0.571832537651062
+      },
+      "compat6_valid": {
+        "background": true,
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true,
+        "two_hand_object": true
+      },
+      "compat6_pixel_acc": 0.9660348296165466,
+      "careego_style_miou": 0.7329974174499512,
+      "careego_style_iou": {
+        "left_hand": 0.9263412952423096,
+        "right_hand": 0.9378046989440918,
+        "left_object": 0.6335706114768982,
+        "right_object": 0.5957227349281311,
+        "two_hand_object": 0.5715476870536804
+      },
+      "careego_style_valid": {
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true,
+        "two_hand_object": true
+      },
+      "careego_style_pred_area": {
+        "left_hand": 0.04711911082267761,
+        "right_hand": 0.05266274884343147,
+        "left_object": 0.03757737576961517,
+        "right_object": 0.031062019988894463,
+        "two_hand_object": 0.019025614485144615
+      },
+      "careego_style_target_area": {
+        "left_hand": 0.04697294905781746,
+        "right_hand": 0.05244427174329758,
+        "left_object": 0.044381022453308105,
+        "right_object": 0.03337443992495537,
+        "two_hand_object": 0.020112400874495506
+      },
+      "fg5_miou": 0.6891828179359436,
+      "fg5_iou": {
+        "left_hand": 0.9263412952423096,
+        "right_hand": 0.9378046989440918,
+        "left_object": 0.47513464093208313,
+        "right_object": 0.5350856781005859,
+        "two_hand_object": 0.5715476870536804
+      },
+      "fg5_valid": {
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true,
+        "two_hand_object": true
+      },
+      "fg5_pred_area": {
+        "left_hand": 0.04711911082267761,
+        "right_hand": 0.05266274884343147,
+        "left_object": 0.018615229055285454,
+        "right_object": 0.01206964161247015,
+        "two_hand_object": 0.019025614485144615
+      },
+      "fg5_target_area": {
+        "left_hand": 0.04697294905781746,
+        "right_hand": 0.05244427174329758,
+        "left_object": 0.02426861971616745,
+        "right_object": 0.013262039050459862,
+        "two_hand_object": 0.020112400874495506
+      },
+      "pa_soft_slot": {
+        "metric_version": "pa_soft_slot_v1_threshold_free",
+        "definition": "For GT-present image-class pairs, TP=sum(p*g), FN=sum((1-p)*g), FP=sum(p*(1-g)); soft_iou=TP/(TP+FP+FN), soft_dice=2TP/(2TP+FP+FN). GT-absent pairs are not rewarded; they report absent_fp_mass=sum(p)/valid_pixels.",
+        "macro": {
+          "pa_soft_iou": 0.7113706469535828,
+          "pa_soft_dice": 0.771450936794281,
+          "tp_recall": 0.7728873491287231,
+          "fn_mass": 0.22711288928985596,
+          "present_fp_mass": 0.003908677492290735,
+          "present_error_mass": 0.11551079899072647,
+          "absent_fp_mass": 0.003833064576610923
+        },
+        "per_class": {
+          "left_hand": {
+            "present_samples": 1017,
+            "absent_samples": 109,
+            "soft_iou": 0.9053069353103638,
+            "soft_dice": 0.9408668875694275,
+            "tp_recall": 0.9427297115325928,
+            "fn_mass": 0.05727062374353409,
+            "present_fp_mass": 0.0020030445884913206,
+            "present_error_mass": 0.029636835679411888,
+            "absent_fp_mass": 0.003317766124382615
+          },
+          "right_hand": {
+            "present_samples": 1064,
+            "absent_samples": 62,
+            "soft_iou": 0.9158332943916321,
+            "soft_dice": 0.9508917331695557,
+            "tp_recall": 0.9530217051506042,
+            "fn_mass": 0.04697851091623306,
+            "present_fp_mass": 0.0019934414885938168,
+            "present_error_mass": 0.024485968053340912,
+            "absent_fp_mass": 0.0034610845614224672
+          },
+          "left_object": {
+            "present_samples": 529,
+            "absent_samples": 597,
+            "soft_iou": 0.5438368320465088,
+            "soft_dice": 0.6200385689735413,
+            "tp_recall": 0.6244643330574036,
+            "fn_mass": 0.37553584575653076,
+            "present_fp_mass": 0.005504370201379061,
+            "present_error_mass": 0.1905200481414795,
+            "absent_fp_mass": 0.0046660746447741985
+          },
+          "right_object": {
+            "present_samples": 632,
+            "absent_samples": 494,
+            "soft_iou": 0.5597636699676514,
+            "soft_dice": 0.6420661211013794,
+            "tp_recall": 0.6547387838363647,
+            "fn_mass": 0.34526142477989197,
+            "present_fp_mass": 0.0035284908954054117,
+            "present_error_mass": 0.17439506947994232,
+            "absent_fp_mass": 0.003272703615948558
+          },
+          "two_hand_object": {
+            "present_samples": 307,
+            "absent_samples": 819,
+            "soft_iou": 0.632112443447113,
+            "soft_dice": 0.7033913135528564,
+            "tp_recall": 0.6894819736480713,
+            "fn_mass": 0.3105180263519287,
+            "present_fp_mass": 0.006514038424938917,
+            "present_error_mass": 0.1585160344839096,
+            "absent_fp_mass": 0.004447693936526775
+          }
+        }
+      },
+      "coarse_iou": 0.17095033824443817,
+      "coarse_area": 0.5794827938079834,
+      "mask_union_area": 0.14918960630893707,
+      "relation": {
+        "object_without_hand_rate": 0.00959557481110096,
+        "invalid_two_hand_object_rate": 0.00022467896633315831,
+        "hand_overlap_rate": 2.6886740670306608e-05,
+        "hand_object_overlap_rate": 0.00012371790944598615,
+        "relation_violation_score": 0.033076800405979156,
+        "role_confusions": {
+          "LH_to_RH": 0.0017207785276696086,
+          "RH_to_LH": 0.0013339495053514838,
+          "LO_to_RO": 0.009032312780618668,
+          "RO_to_LO": 0.025240197777748108,
+          "TO_to_LO": 0.08735789358615875,
+          "TO_to_RO": 0.029546190053224564,
+          "LO_to_TO": 0.08245335519313812,
+          "RO_to_TO": 0.030316730961203575
+        }
+      },
+      "uncertainty_quintiles": {
+        "definition": "U=4P(1-P), analytic parsing ambiguity; not calibrated uncertainty",
+        "val_fixed_edges": [
+          0.9589643380556913,
+          0.979970688812897,
+          0.9897410845139228,
+          0.9956033219345384
+        ],
+        "quintiles": [
+          {
+            "quintile": 1,
+            "lower": 0.0,
+            "upper": 0.9589643380556913,
+            "pixels": 45641488,
+            "pixel_error_rate": 0.041079599410295486,
+            "boundary_f": 0.3909561038017273,
+            "role_iou": {
+              "left_hand": 0.9286581873893738,
+              "right_hand": 0.949826180934906,
+              "left_object": 0.5753400921821594,
+              "right_object": 0.5461714863777161,
+              "two_hand_object": 0.6053914427757263
+            }
+          },
+          {
+            "quintile": 2,
+            "lower": 0.9589643380556913,
+            "upper": 0.979970688812897,
+            "pixels": 45762684,
+            "pixel_error_rate": 0.03544999659061432,
+            "boundary_f": 0.4079798460006714,
+            "role_iou": {
+              "left_hand": 0.9227213263511658,
+              "right_hand": 0.9343702793121338,
+              "left_object": 0.47124144434928894,
+              "right_object": 0.5432868003845215,
+              "two_hand_object": 0.5795390009880066
+            }
+          },
+          {
+            "quintile": 3,
+            "lower": 0.979970688812897,
+            "upper": 0.9897410845139228,
+            "pixels": 45315392,
+            "pixel_error_rate": 0.032889507710933685,
+            "boundary_f": 0.40867775678634644,
+            "role_iou": {
+              "left_hand": 0.9226999878883362,
+              "right_hand": 0.9292714595794678,
+              "left_object": 0.4348861277103424,
+              "right_object": 0.5438821315765381,
+              "two_hand_object": 0.5630846619606018
+            }
+          },
+          {
+            "quintile": 4,
+            "lower": 0.9897410845139228,
+            "upper": 0.9956033219345384,
+            "pixels": 46157516,
+            "pixel_error_rate": 0.031122537329792976,
+            "boundary_f": 0.40895867347717285,
+            "role_iou": {
+              "left_hand": 0.9257668852806091,
+              "right_hand": 0.9291262030601501,
+              "left_object": 0.4113022983074188,
+              "right_object": 0.532431423664093,
+              "two_hand_object": 0.5510684847831726
+            }
+          },
+          {
+            "quintile": 5,
+            "lower": 0.9956033219345384,
+            "upper": 1.0,
+            "pixels": 43115604,
+            "pixel_error_rate": 0.029031740501523018,
+            "boundary_f": 0.40047451853752136,
+            "role_iou": {
+              "left_hand": 0.9321523904800415,
+              "right_hand": 0.9350020289421082,
+              "left_object": 0.37775155901908875,
+              "right_object": 0.4956965744495392,
+              "two_hand_object": 0.5259785652160645
+            }
+          }
+        ]
+      }
+    },
+    "test_outdomain": {
+      "samples": 500,
+      "mean_iou4": 0.8193684816360474,
+      "iou4": {
+        "left_hand": 0.952811062335968,
+        "right_hand": 0.9548999667167664,
+        "left_object": 0.7250966429710388,
+        "right_object": 0.644666314125061
+      },
+      "valid_iou4": {
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true
+      },
+      "pred_area4": {
+        "left_hand": 0.03643646463751793,
+        "right_hand": 0.04905538633465767,
+        "left_object": 0.03571566194295883,
+        "right_object": 0.0207112655043602
+      },
+      "target_area4": {
+        "left_hand": 0.03648695722222328,
+        "right_hand": 0.04905204847455025,
+        "left_object": 0.0414000004529953,
+        "right_object": 0.021807797253131866
+      },
+      "compat6_miou": 0.7879390120506287,
+      "foreground_miou": 0.7492572665214539,
+      "compat6_miou_with_bg": 0.7879390120506287,
+      "compat6_fg_miou": 0.7492572665214539,
+      "compat6_iou": {
+        "background": 0.9813476204872131,
+        "left_hand": 0.9528745412826538,
+        "right_hand": 0.9550092816352844,
+        "left_object": 0.7099820971488953,
+        "right_object": 0.5396309494972229,
+        "two_hand_object": 0.5887892842292786
+      },
+      "compat6_valid": {
+        "background": true,
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true,
+        "two_hand_object": true
+      },
+      "compat6_pixel_acc": 0.9787101149559021,
+      "careego_style_miou": 0.7733380198478699,
+      "careego_style_iou": {
+        "left_hand": 0.952811062335968,
+        "right_hand": 0.9548999667167664,
+        "left_object": 0.7250966429710388,
+        "right_object": 0.644666314125061,
+        "two_hand_object": 0.5892159938812256
+      },
+      "careego_style_valid": {
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true,
+        "two_hand_object": true
+      },
+      "careego_style_pred_area": {
+        "left_hand": 0.03643646463751793,
+        "right_hand": 0.04905538633465767,
+        "left_object": 0.03571566194295883,
+        "right_object": 0.0207112655043602,
+        "two_hand_object": 0.00718353409320116
+      },
+      "careego_style_target_area": {
+        "left_hand": 0.03648695722222328,
+        "right_hand": 0.04905204847455025,
+        "left_object": 0.0414000004529953,
+        "right_object": 0.021807797253131866,
+        "two_hand_object": 0.009242914617061615
+      },
+      "fg5_miou": 0.7494263052940369,
+      "fg5_iou": {
+        "left_hand": 0.952811062335968,
+        "right_hand": 0.9548999667167664,
+        "left_object": 0.7103423476219177,
+        "right_object": 0.5398618578910828,
+        "two_hand_object": 0.5892159938812256
+      },
+      "fg5_valid": {
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true,
+        "two_hand_object": true
+      },
+      "fg5_pred_area": {
+        "left_hand": 0.03643646463751793,
+        "right_hand": 0.04905538633465767,
+        "left_object": 0.028546396642923355,
+        "right_object": 0.013540727086365223,
+        "two_hand_object": 0.00718353409320116
+      },
+      "fg5_target_area": {
+        "left_hand": 0.03648695722222328,
+        "right_hand": 0.04905204847455025,
+        "left_object": 0.032157085835933685,
+        "right_object": 0.012564881704747677,
+        "two_hand_object": 0.009242914617061615
+      },
+      "pa_soft_slot": {
+        "metric_version": "pa_soft_slot_v1_threshold_free",
+        "definition": "For GT-present image-class pairs, TP=sum(p*g), FN=sum((1-p)*g), FP=sum(p*(1-g)); soft_iou=TP/(TP+FP+FN), soft_dice=2TP/(2TP+FP+FN). GT-absent pairs are not rewarded; they report absent_fp_mass=sum(p)/valid_pixels.",
+        "macro": {
+          "pa_soft_iou": 0.7563948631286621,
+          "pa_soft_dice": 0.8105587363243103,
+          "tp_recall": 0.8178910613059998,
+          "fn_mass": 0.182109072804451,
+          "present_fp_mass": 0.0024478670675307512,
+          "present_error_mass": 0.09227845817804337,
+          "absent_fp_mass": 0.00209781713783741
+        },
+        "per_class": {
+          "left_hand": {
+            "present_samples": 456,
+            "absent_samples": 44,
+            "soft_iou": 0.9348151683807373,
+            "soft_dice": 0.9643009901046753,
+            "tp_recall": 0.9642561674118042,
+            "fn_mass": 0.03574400022625923,
+            "present_fp_mass": 0.0010856707813218236,
+            "present_error_mass": 0.01841483637690544,
+            "absent_fp_mass": 0.00020551533089019358
+          },
+          "right_hand": {
+            "present_samples": 479,
+            "absent_samples": 21,
+            "soft_iou": 0.9424067139625549,
+            "soft_dice": 0.96878981590271,
+            "tp_recall": 0.9695582985877991,
+            "fn_mass": 0.030441714450716972,
+            "present_fp_mass": 0.0013545355759561062,
+            "present_error_mass": 0.01589812897145748,
+            "absent_fp_mass": 0.0011442204704508185
+          },
+          "left_object": {
+            "present_samples": 300,
+            "absent_samples": 200,
+            "soft_iou": 0.7065280079841614,
+            "soft_dice": 0.7729180455207825,
+            "tp_recall": 0.7843486070632935,
+            "fn_mass": 0.21565142273902893,
+            "present_fp_mass": 0.0040227011777460575,
+            "present_error_mass": 0.10983704775571823,
+            "absent_fp_mass": 0.002954057650640607
+          },
+          "right_object": {
+            "present_samples": 347,
+            "absent_samples": 153,
+            "soft_iou": 0.5981927514076233,
+            "soft_dice": 0.6918662786483765,
+            "tp_recall": 0.7343199253082275,
+            "fn_mass": 0.2656802237033844,
+            "present_fp_mass": 0.004304816015064716,
+            "present_error_mass": 0.13499251008033752,
+            "absent_fp_mass": 0.005111334379762411
+          },
+          "two_hand_object": {
+            "present_samples": 97,
+            "absent_samples": 403,
+            "soft_iou": 0.6000314950942993,
+            "soft_dice": 0.6549186706542969,
+            "tp_recall": 0.6369719505310059,
+            "fn_mass": 0.36302801966667175,
+            "present_fp_mass": 0.001471611438319087,
+            "present_error_mass": 0.1822497546672821,
+            "absent_fp_mass": 0.0010739578865468502
+          }
+        }
+      },
+      "coarse_iou": 0.1748715043067932,
+      "coarse_area": 0.5373672842979431,
+      "mask_union_area": 0.1345292329788208,
+      "relation": {
+        "object_without_hand_rate": 0.0038857145700603724,
+        "invalid_two_hand_object_rate": 4.0856184568838216e-07,
+        "hand_overlap_rate": 1.796675678633619e-05,
+        "hand_object_overlap_rate": 0.00010066567483590916,
+        "relation_violation_score": 0.026623696088790894,
+        "role_confusions": {
+          "LH_to_RH": 0.001923781237564981,
+          "RH_to_LH": 0.00034799595596268773,
+          "LO_to_RO": 0.032912325114011765,
+          "RO_to_LO": 0.04316641017794609,
+          "TO_to_LO": 0.06522487103939056,
+          "TO_to_RO": 0.12060008198022842,
+          "LO_to_TO": 0.015993664041161537,
+          "RO_to_TO": 0.024774150922894478
+        }
+      },
+      "uncertainty_quintiles": {
+        "definition": "U=4P(1-P), analytic parsing ambiguity; not calibrated uncertainty",
+        "val_fixed_edges": [
+          0.9589643380556913,
+          0.979970688812897,
+          0.9897410845139228,
+          0.9956033219345384
+        ],
+        "quintiles": [
+          {
+            "quintile": 1,
+            "lower": 0.0,
+            "upper": 0.9589643380556913,
+            "pixels": 18093476,
+            "pixel_error_rate": 0.029537497088313103,
+            "boundary_f": 0.4632263481616974,
+            "role_iou": {
+              "left_hand": 0.963390052318573,
+              "right_hand": 0.964600682258606,
+              "left_object": 0.8014592528343201,
+              "right_object": 0.5090430378913879,
+              "two_hand_object": 0.5515363812446594
+            }
+          },
+          {
+            "quintile": 2,
+            "lower": 0.9589643380556913,
+            "upper": 0.979970688812897,
+            "pixels": 19654248,
+            "pixel_error_rate": 0.023032324388623238,
+            "boundary_f": 0.4811520278453827,
+            "role_iou": {
+              "left_hand": 0.9511201977729797,
+              "right_hand": 0.9521273374557495,
+              "left_object": 0.6999256610870361,
+              "right_object": 0.5513195991516113,
+              "two_hand_object": 0.6078067421913147
+            }
+          },
+          {
+            "quintile": 3,
+            "lower": 0.979970688812897,
+            "upper": 0.9897410845139228,
+            "pixels": 20423828,
+            "pixel_error_rate": 0.020927663892507553,
+            "boundary_f": 0.48113659024238586,
+            "role_iou": {
+              "left_hand": 0.9445637464523315,
+              "right_hand": 0.9479305744171143,
+              "left_object": 0.6561161875724792,
+              "right_object": 0.549193799495697,
+              "two_hand_object": 0.6080866456031799
+            }
+          },
+          {
+            "quintile": 4,
+            "lower": 0.9897410845139228,
+            "upper": 0.9956033219345384,
+            "pixels": 21470372,
+            "pixel_error_rate": 0.01878444477915764,
+            "boundary_f": 0.4808308482170105,
+            "role_iou": {
+              "left_hand": 0.9430522918701172,
+              "right_hand": 0.948441207408905,
+              "left_object": 0.6344822645187378,
+              "right_object": 0.5494539737701416,
+              "two_hand_object": 0.6054807901382446
+            }
+          },
+          {
+            "quintile": 5,
+            "lower": 0.9956033219345384,
+            "upper": 1.0,
+            "pixels": 20710070,
+            "pixel_error_rate": 0.015385027974843979,
+            "boundary_f": 0.4836069345474243,
+            "role_iou": {
+              "left_hand": 0.9507117867469788,
+              "right_hand": 0.954682469367981,
+              "left_object": 0.6045617461204529,
+              "right_object": 0.551369845867157,
+              "two_hand_object": 0.5896636843681335
+            }
+          }
+        ]
+      }
+    },
+    "minihoi4d": {
+      "samples": 1095,
+      "mean_iou4": 0.7345424294471741,
+      "iou4": {
+        "left_hand": 0.8049927949905396,
+        "right_hand": 0.9294835925102234,
+        "left_object": 0.6523846983909607,
+        "right_object": 0.5513086318969727
+      },
+      "valid_iou4": {
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true
+      },
+      "pred_area4": {
+        "left_hand": 0.004879900254309177,
+        "right_hand": 0.025986185297369957,
+        "left_object": 0.013660199008882046,
+        "right_object": 0.025090599432587624
+      },
+      "target_area4": {
+        "left_hand": 0.004068769048899412,
+        "right_hand": 0.02603873237967491,
+        "left_object": 0.012319880537688732,
+        "right_object": 0.030653787776827812
+      },
+      "compat6_miou": 0.6416688561439514,
+      "foreground_miou": 0.5735669136047363,
+      "compat6_miou_with_bg": 0.6416688561439514,
+      "compat6_fg_miou": 0.5735669136047363,
+      "compat6_iou": {
+        "background": 0.9821784496307373,
+        "left_hand": 0.8366064429283142,
+        "right_hand": 0.9254023432731628,
+        "left_object": 0.0,
+        "right_object": 0.4610445201396942,
+        "two_hand_object": 0.6447811126708984
+      },
+      "compat6_valid": {
+        "background": true,
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true,
+        "two_hand_object": true
+      },
+      "compat6_pixel_acc": 0.9814155697822571,
+      "careego_style_miou": 0.716662585735321,
+      "careego_style_iou": {
+        "left_hand": 0.8049927949905396,
+        "right_hand": 0.9294835925102234,
+        "left_object": 0.6523846983909607,
+        "right_object": 0.5513086318969727,
+        "two_hand_object": 0.6451430320739746
+      },
+      "careego_style_valid": {
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true,
+        "two_hand_object": true
+      },
+      "careego_style_pred_area": {
+        "left_hand": 0.004879900254309177,
+        "right_hand": 0.025986185297369957,
+        "left_object": 0.013660199008882046,
+        "right_object": 0.025090599432587624,
+        "two_hand_object": 0.012900262139737606
+      },
+      "careego_style_target_area": {
+        "left_hand": 0.004068769048899412,
+        "right_hand": 0.02603873237967491,
+        "left_object": 0.012319880537688732,
+        "right_object": 0.030653787776827812,
+        "two_hand_object": 0.012319880537688732
+      },
+      "fg5_miou": 0.568112313747406,
+      "fg5_iou": {
+        "left_hand": 0.8049927949905396,
+        "right_hand": 0.9294835925102234,
+        "left_object": 0.0,
+        "right_object": 0.46094197034835815,
+        "two_hand_object": 0.6451430320739746
+      },
+      "fg5_valid": {
+        "left_hand": true,
+        "right_hand": true,
+        "left_object": true,
+        "right_object": true,
+        "two_hand_object": true
+      },
+      "fg5_pred_area": {
+        "left_hand": 0.004879900254309177,
+        "right_hand": 0.025986185297369957,
+        "left_object": 0.0007675812230445445,
+        "right_object": 0.012215126305818558,
+        "two_hand_object": 0.012900262139737606
+      },
+      "fg5_target_area": {
+        "left_hand": 0.004068769048899412,
+        "right_hand": 0.02603873237967491,
+        "left_object": 0.0,
+        "right_object": 0.018333908170461655,
+        "two_hand_object": 0.012319880537688732
+      },
+      "pa_soft_slot": {
+        "metric_version": "pa_soft_slot_v1_threshold_free",
+        "definition": "For GT-present image-class pairs, TP=sum(p*g), FN=sum((1-p)*g), FP=sum(p*(1-g)); soft_iou=TP/(TP+FP+FN), soft_dice=2TP/(2TP+FP+FN). GT-absent pairs are not rewarded; they report absent_fp_mass=sum(p)/valid_pixels.",
+        "macro": {
+          "pa_soft_iou": 0.7983707189559937,
+          "pa_soft_dice": 0.8488460183143616,
+          "tp_recall": 0.8351647853851318,
+          "fn_mass": 0.16483521461486816,
+          "present_fp_mass": 0.0014499211683869362,
+          "present_error_mass": 0.08314254134893417,
+          "absent_fp_mass": 0.003349689766764641
+        },
+        "per_class": {
+          "left_hand": {
+            "present_samples": 160,
+            "absent_samples": 935,
+            "soft_iou": 0.9435416460037231,
+            "soft_dice": 0.9707306623458862,
+            "tp_recall": 0.976765513420105,
+            "fn_mass": 0.023234419524669647,
+            "present_fp_mass": 0.0010055587626993656,
+            "present_error_mass": 0.012119988910853863,
+            "absent_fp_mass": 0.0010005530202761292
+          },
+          "right_hand": {
+            "present_samples": 1095,
+            "absent_samples": 0,
+            "soft_iou": 0.9144933819770813,
+            "soft_dice": 0.9497525095939636,
+            "tp_recall": 0.9517504572868347,
+            "fn_mass": 0.048249538987874985,
+            "present_fp_mass": 0.0010659921681508422,
+            "present_error_mass": 0.024657757952809334,
+            "absent_fp_mass": null
+          },
+          "left_object": {
+            "present_samples": 0,
+            "absent_samples": 1095,
+            "soft_iou": null,
+            "soft_dice": null,
+            "tp_recall": null,
+            "fn_mass": null,
+            "present_fp_mass": null,
+            "present_error_mass": null,
+            "absent_fp_mass": 0.000813855673186481
+          },
+          "right_object": {
+            "present_samples": 892,
+            "absent_samples": 203,
+            "soft_iou": 0.5995244383811951,
+            "soft_dice": 0.6745101809501648,
+            "tp_recall": 0.6614389419555664,
+            "fn_mass": 0.338561087846756,
+            "present_fp_mass": 0.001387291238643229,
+            "present_error_mass": 0.16997410356998444,
+            "absent_fp_mass": 0.008437599055469036
+          },
+          "two_hand_object": {
+            "present_samples": 113,
+            "absent_samples": 982,
+            "soft_iou": 0.7359234690666199,
+            "soft_dice": 0.8003907799720764,
+            "tp_recall": 0.7507042288780212,
+            "fn_mass": 0.24929583072662354,
+            "present_fp_mass": 0.002340842504054308,
+            "present_error_mass": 0.12581832706928253,
+            "absent_fp_mass": 0.003146752016618848
+          }
+        }
+      },
+      "coarse_iou": 0.06140045076608658,
+      "coarse_area": 0.6749354004859924,
+      "mask_union_area": 0.05635805055499077,
+      "relation": {
+        "object_without_hand_rate": 0.013877303339540958,
+        "invalid_two_hand_object_rate": 3.3899832487804815e-05,
+        "hand_overlap_rate": 0.0003002159937750548,
+        "hand_object_overlap_rate": 3.507120345602743e-05,
+        "relation_violation_score": 0.018624670803546906,
+        "role_confusions": {
+          "LH_to_RH": 7.492756412830204e-05,
+          "RH_to_LH": 0.02188235893845558,
+          "LO_to_RO": 0.0,
+          "RO_to_LO": 0.010724552907049656,
+          "TO_to_LO": 0.029560662806034088,
+          "TO_to_RO": 0.021217329427599907,
+          "LO_to_TO": 0.0,
+          "RO_to_TO": 0.0011220425367355347
+        }
+      },
+      "uncertainty_quintiles": {
+        "definition": "U=4P(1-P), analytic parsing ambiguity; not calibrated uncertainty",
+        "val_fixed_edges": [
+          0.9589643380556913,
+          0.979970688812897,
+          0.9897410845139228,
+          0.9956033219345384
+        ],
+        "quintiles": [
+          {
+            "quintile": 1,
+            "lower": 0.0,
+            "upper": 0.9589643380556913,
+            "pixels": 40093468,
+            "pixel_error_rate": 0.020625729113817215,
+            "boundary_f": 0.46667414903640747,
+            "role_iou": {
+              "left_hand": 0.815509557723999,
+              "right_hand": 0.9339759945869446,
+              "left_object": 0.0,
+              "right_object": 0.5284869074821472,
+              "two_hand_object": 0.7016617059707642
+            }
+          },
+          {
+            "quintile": 2,
+            "lower": 0.9589643380556913,
+            "upper": 0.979970688812897,
+            "pixels": 42344176,
+            "pixel_error_rate": 0.019520960748195648,
+            "boundary_f": 0.46794459223747253,
+            "role_iou": {
+              "left_hand": 0.8418724536895752,
+              "right_hand": 0.9211975336074829,
+              "left_object": 0.0,
+              "right_object": 0.4839915335178375,
+              "two_hand_object": 0.6643250584602356
+            }
+          },
+          {
+            "quintile": 3,
+            "lower": 0.979970688812897,
+            "upper": 0.9897410845139228,
+            "pixels": 42496496,
+            "pixel_error_rate": 0.01885979063808918,
+            "boundary_f": 0.4678541421890259,
+            "role_iou": {
+              "left_hand": 0.8444982171058655,
+              "right_hand": 0.917378842830658,
+              "left_object": 0.0,
+              "right_object": 0.4583992660045624,
+              "two_hand_object": 0.6338938474655151
+            }
+          },
+          {
+            "quintile": 4,
+            "lower": 0.9897410845139228,
+            "upper": 0.9956033219345384,
+            "pixels": 44604024,
+            "pixel_error_rate": 0.01818273216485977,
+            "boundary_f": 0.4678477644920349,
+            "role_iou": {
+              "left_hand": 0.8421522974967957,
+              "right_hand": 0.9195877909660339,
+              "left_object": 0.0,
+              "right_object": 0.4324357807636261,
+              "two_hand_object": 0.6126751899719238
+            }
+          },
+          {
+            "quintile": 5,
+            "lower": 0.9956033219345384,
+            "upper": 1.0,
+            "pixels": 50232768,
+            "pixel_error_rate": 0.016289565712213516,
+            "boundary_f": 0.46317002177238464,
+            "role_iou": {
+              "left_hand": 0.8471210598945618,
+              "right_hand": 0.9250912666320801,
+              "left_object": 0.0,
+              "right_object": 0.3881972134113312,
+              "two_hand_object": 0.5935075283050537
+            }
+          }
+        ]
+      }
+    }
+  }
+}

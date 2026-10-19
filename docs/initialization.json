@@ -1,0 +1,6 @@
+{
+  "filename": "dinov3_convnext_tiny_pretrain_lvd1689m-21b726bb.pth",
+  "sha256": "21b726bb286e037f00a23fb4699fa9bda9c75b6a615bd57ce3013cec1b528d54",
+  "source": "https://github.com/facebookresearch/dinov3",
+  "distributed_in_review_package": false
+}

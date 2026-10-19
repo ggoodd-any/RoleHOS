@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+outputs/
+data/
+weights/**/*.pth
+weights/**/*.pt
+*.engine
+*.onnx
+*.zip
+examples/images/*
+examples/labels/*
+.gradio/

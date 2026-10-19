@@ -1,0 +1,9 @@
+# Install the matching PyTorch pair first; see README.
+numpy==1.26.4
+scipy==1.15.3
+opencv-python==4.11.0.86
+mmengine==0.10.7
+mmcv-lite==2.2.0
+packaging==25.0
+Pillow==11.3.0
+matplotlib==3.10.1

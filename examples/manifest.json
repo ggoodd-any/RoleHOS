@@ -1,0 +1,126 @@
+[
+  {
+    "split": "test_indomain",
+    "sample_id": "thu_throw_paperplane_RGB_throw_paperplane_cgy_2_64",
+    "sorted_zero_based_index": 1089,
+    "selection_foreground_IoU": 97.94010723701867,
+    "role_IoU": {
+      "2": 97.53258845437617,
+      "4": 98.34762601966116
+    },
+    "object_pixels": 18996,
+    "hand_pixels": 8492,
+    "image": "examples/images/test_indomain_thu_throw_paperplane_RGB_throw_paperplane_cgy_2_64.jpg",
+    "image_sha256": "79172b9e13e41a575b267b868e057bd4f597560c4d133950341d039d014e2643",
+    "label": "examples/labels/test_indomain_thu_throw_paperplane_RGB_throw_paperplane_cgy_2_64.png",
+    "label_sha256": "5ba47ddec476c893d22d25a0337a973b0a22a51d2384fc40545a5b280cb4f505",
+    "source": "EgoHOS",
+    "selection": "Curated for high seed-0 prediction/GT overlap and visually reviewed scene/role diversity, from 64 evenly spaced sorted candidates per split.",
+    "selection_checkpoint_sha256": "b54e77f5c8d843cc1a78d6bf8182a0c6a1cc08f9cd971671d89f5e5afc8946f5",
+    "distribution": "local reviewer preview only; dataset terms apply, not MIT"
+  },
+  {
+    "split": "test_indomain",
+    "sample_id": "ego4d_6269fa52-58af-46d3-9a4b-7aca66c3b622_16050",
+    "sorted_zero_based_index": 321,
+    "selection_foreground_IoU": 97.0921787414568,
+    "role_IoU": {
+      "1": 96.36668301454961,
+      "2": 97.61459784566244,
+      "5": 97.29525536415835
+    },
+    "object_pixels": 39161,
+    "hand_pixels": 52842,
+    "image": "examples/images/test_indomain_ego4d_6269fa52-58af-46d3-9a4b-7aca66c3b622_16050.jpg",
+    "image_sha256": "e79037f9521b8839bbb1d3974f547b8034f8bee85567f02220805850fdf2fd6d",
+    "label": "examples/labels/test_indomain_ego4d_6269fa52-58af-46d3-9a4b-7aca66c3b622_16050.png",
+    "label_sha256": "8e71dcee91df1f78f0f47a396068c829baf28db437ad687b9186fa783eab16a0",
+    "source": "EgoHOS",
+    "selection": "Curated for high seed-0 prediction/GT overlap and visually reviewed scene/role diversity, from 64 evenly spaced sorted candidates per split.",
+    "selection_checkpoint_sha256": "b54e77f5c8d843cc1a78d6bf8182a0c6a1cc08f9cd971671d89f5e5afc8946f5",
+    "distribution": "local reviewer preview only; dataset terms apply, not MIT"
+  },
+  {
+    "split": "test_outdomain",
+    "sample_id": "youtube_POV 'From-Scratch' Meatballs & Spaghetti for My Wife  First Person Cooking-RN4LfG5ZHE4-1080p-1644527646933_007620",
+    "sorted_zero_based_index": 372,
+    "selection_foreground_IoU": 96.10652968239988,
+    "role_IoU": {
+      "1": 96.33547412164715,
+      "3": 95.8775852431526
+    },
+    "object_pixels": 14073,
+    "hand_pixels": 5240,
+    "image": "examples/images/test_outdomain_youtube_POV 'From-Scratch' Meatballs & Spaghetti for My Wife  First Person Cooking-RN4LfG5ZHE4-1080p-1644527646933_007620.jpg",
+    "image_sha256": "b1707aeef6a9c592835357ae5d268d0ab240782208a588b6a9c33a9ab0ea56ab",
+    "label": "examples/labels/test_outdomain_youtube_POV 'From-Scratch' Meatballs & Spaghetti for My Wife  First Person Cooking-RN4LfG5ZHE4-1080p-1644527646933_007620.png",
+    "label_sha256": "8a58735107a3cfe247bd1301bb8a47047f4f55c22a4fbc80bd4cc5e0bf17535b",
+    "source": "EgoHOS",
+    "selection": "Curated for high seed-0 prediction/GT overlap and visually reviewed scene/role diversity, from 64 evenly spaced sorted candidates per split.",
+    "selection_checkpoint_sha256": "b54e77f5c8d843cc1a78d6bf8182a0c6a1cc08f9cd971671d89f5e5afc8946f5",
+    "distribution": "local reviewer preview only; dataset terms apply, not MIT"
+  },
+  {
+    "split": "test_outdomain",
+    "sample_id": "youtube_How_009000",
+    "sorted_zero_based_index": 205,
+    "selection_foreground_IoU": 95.85484288843412,
+    "role_IoU": {
+      "1": 96.3386284385897,
+      "2": 94.56381050996634,
+      "3": 97.05479452054794,
+      "4": 95.46213808463251
+    },
+    "object_pixels": 7911,
+    "hand_pixels": 8733,
+    "image": "examples/images/test_outdomain_youtube_How_009000.jpg",
+    "image_sha256": "2060f1def242f8e9c23dabc904c106de59219022c84352134c2fc3bb3022aac0",
+    "label": "examples/labels/test_outdomain_youtube_How_009000.png",
+    "label_sha256": "630ea7ab78e521098b4307db0be21782fc012832c9c78f22ce947498e255120d",
+    "source": "EgoHOS",
+    "selection": "Curated for high seed-0 prediction/GT overlap and visually reviewed scene/role diversity, from 64 evenly spaced sorted candidates per split.",
+    "selection_checkpoint_sha256": "b54e77f5c8d843cc1a78d6bf8182a0c6a1cc08f9cd971671d89f5e5afc8946f5",
+    "distribution": "local reviewer preview only; dataset terms apply, not MIT"
+  },
+  {
+    "split": "minihoi4d",
+    "sample_id": "ZY20210800004_H4_C20_N38_S301_s04_T3_00210",
+    "sorted_zero_based_index": 972,
+    "selection_foreground_IoU": 97.01145227959613,
+    "role_IoU": {
+      "1": 97.28345896742995,
+      "2": 96.83874222296957,
+      "5": 96.91215564838889
+    },
+    "object_pixels": 33425,
+    "hand_pixels": 12750,
+    "image": "examples/images/minihoi4d_ZY20210800004_H4_C20_N38_S301_s04_T3_00210.jpg",
+    "image_sha256": "4fe58b6f49e7c8148d417bc778b02d4534e41c83cac12063950c808819773606",
+    "label": "examples/labels/minihoi4d_ZY20210800004_H4_C20_N38_S301_s04_T3_00210.png",
+    "label_sha256": "08a56df89c8d8568996b309f163f39d6e0f44981cc72932a3065ee1ffad31380",
+    "source": "HOI4D / mini-HOI4D",
+    "selection": "Curated for high seed-0 prediction/GT overlap and visually reviewed scene/role diversity, from 64 evenly spaced sorted candidates per split.",
+    "selection_checkpoint_sha256": "b54e77f5c8d843cc1a78d6bf8182a0c6a1cc08f9cd971671d89f5e5afc8946f5",
+    "distribution": "local reviewer preview only; dataset terms apply, not MIT"
+  },
+  {
+    "split": "minihoi4d",
+    "sample_id": "ZY20210800004_H4_C3_N59_S375_s03_T2_00172",
+    "sorted_zero_based_index": 1024,
+    "selection_foreground_IoU": 96.90642071802685,
+    "role_IoU": {
+      "2": 96.58260989389555,
+      "4": 97.23023154215815
+    },
+    "object_pixels": 11189,
+    "hand_pixels": 7032,
+    "image": "examples/images/minihoi4d_ZY20210800004_H4_C3_N59_S375_s03_T2_00172.jpg",
+    "image_sha256": "059656e0e7bfccadfdb0fed820fa57d7d031be6d316ff946ba0ff09892f3b6e1",
+    "label": "examples/labels/minihoi4d_ZY20210800004_H4_C3_N59_S375_s03_T2_00172.png",
+    "label_sha256": "276e6ab8b3e59e90212d6dfecbe0d2135c80a5126c3c1fab4a05071dc5fc3979",
+    "source": "HOI4D / mini-HOI4D",
+    "selection": "Curated for high seed-0 prediction/GT overlap and visually reviewed scene/role diversity, from 64 evenly spaced sorted candidates per split.",
+    "selection_checkpoint_sha256": "b54e77f5c8d843cc1a78d6bf8182a0c6a1cc08f9cd971671d89f5e5afc8946f5",
+    "distribution": "local reviewer preview only; dataset terms apply, not MIT"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "repository": "https://github.com/ggoodd-any/RoleHOS",
+  "google_drive_folder": "https://drive.google.com/drive/folders/1qylFVDv40EpEyo6JSRhAhpcej5M-VG0h",
+  "archives": [
+    {
+      "archive": "RoleHOS_weights_full.zip",
+      "sha256": "b9fb025ebf4b4666475de9665cdb6bd32d130a5084afc55f3c078d1646bd3ee4",
+      "bytes": 401296257
+    },
+    {
+      "archive": "RoleHOS_weights_without_both_zero.zip",
+      "sha256": "b72473af5f36b4bd0c87107ce64ea7498f5fbacd48965a83e1af7c87ba4333d8",
+      "bytes": 379933050
+    },
+    {
+      "archive": "RoleHOS_weights_without_ricd.zip",
+      "sha256": "99ebf3bd51a658582c2ac04ca91cdcf6891785926e23389f600a3dafda43ef43",
+      "bytes": 401304681
+    },
+    {
+      "archive": "RoleHOS_weights_without_sfsc_zero.zip",
+      "sha256": "417498c7cf8c4f687dfe61a2b0afe58bcf844d4842aa3f51454f5ccae2402682",
+      "bytes": 379933050
+    },
+    {
+      "archive": "RoleHOS_weights_without_foreground_conditions.zip",
+      "sha256": "c9caf044c3fa6aae0b6a98c0aff6f82dc9a015c6aa7ba0073f82e36bab51d8e8",
+      "bytes": 401323158
+    },
+    {
+      "archive": "RoleHOS_weights_p_only_zero.zip",
+      "sha256": "abb8fe6d7865dcd02bed20755ca9752395a48154ee5f641fd7eb86c0e5fd1700",
+      "bytes": 401303628
+    },
+    {
+      "archive": "RoleHOS_weights_dense_only.zip",
+      "sha256": "1024cdeb28a213655e89a24abe2465d7203c13f5fb56918a1d7c5709d4731628",
+      "bytes": 401302575
+    },
+    {
+      "archive": "RoleHOS_weights_global_only.zip",
+      "sha256": "0915a1acd77de5f3fc62f0ed88e1b7d89974bfaa3707b91ba7f36b891209f4cf",
+      "bytes": 401303628
+    },
+    {
+      "archive": "RoleHOS_weights_p_only_weighted.zip",
+      "sha256": "0ae24a74f5a6671b4bd5bee3abdb6a9f572e54963365b465b90ca025548bc9e8",
+      "bytes": 401307840
+    },
+    {
+      "archive": "RoleHOS_weights_token_ffn.zip",
+      "sha256": "ffa76e0e5721b0091c3183d90c260417e994864ff328b4a80a7bfe1c8566085a",
+      "bytes": 388652370
+    },
+    {
+      "archive": "RoleHOS_weights_Q1_fixed5_noagg.zip",
+      "sha256": "903b5dcabb34ab6f7d9fa629d30ccd406c389955d3cdad719843ffb2fef2202e",
+      "bytes": 401307840
+    },
+    {
+      "archive": "RoleHOS_weights_Q0_hungarian5_noagg.zip",
+      "sha256": "7131ff7036ccba98c4b421e8fe6de031aec5d9ce278ef1247d155273f5834e0f",
+      "bytes": 401312052
+    }
+  ]
+}

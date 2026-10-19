@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the RoleHOS manuscript when using this research code. Publication details will be updated after acceptance."
+title: "RoleHOS: Efficient Egocentric Hand–Object Segmentation"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Yu
+    given-names: Lisu
+  - family-names: Quan
+    given-names: Hao
+  - family-names: Xu
+    given-names: Hanchen
+  - family-names: Liu
+    given-names: Xiaodong
+  - family-names: Ji
+    given-names: Xiang
+repository-code: "https://github.com/ggoodd-any/RoleHOS"
