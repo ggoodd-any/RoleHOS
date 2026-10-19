@@ -5,62 +5,86 @@
     {
       "archive": "RoleHOS_weights_full.zip",
       "sha256": "b9fb025ebf4b4666475de9665cdb6bd32d130a5084afc55f3c078d1646bd3ee4",
-      "bytes": 401296257
+      "bytes": 401296257,
+      "google_drive_file_id": "1idTg-AdrRZ0OBhg0znCXJMIF6TI-zfQS",
+      "url": "https://drive.google.com/file/d/1idTg-AdrRZ0OBhg0znCXJMIF6TI-zfQS/view"
     },
     {
       "archive": "RoleHOS_weights_without_both_zero.zip",
       "sha256": "b72473af5f36b4bd0c87107ce64ea7498f5fbacd48965a83e1af7c87ba4333d8",
-      "bytes": 379933050
+      "bytes": 379933050,
+      "google_drive_file_id": "1qNyZi1lCB4BjknxtyElSJ52Ul1_3OH5S",
+      "url": "https://drive.google.com/file/d/1qNyZi1lCB4BjknxtyElSJ52Ul1_3OH5S/view"
     },
     {
       "archive": "RoleHOS_weights_without_ricd.zip",
       "sha256": "99ebf3bd51a658582c2ac04ca91cdcf6891785926e23389f600a3dafda43ef43",
-      "bytes": 401304681
+      "bytes": 401304681,
+      "google_drive_file_id": "1XP4BXERL9IDz5xrfyzRfoAlz22axjYwl",
+      "url": "https://drive.google.com/file/d/1XP4BXERL9IDz5xrfyzRfoAlz22axjYwl/view"
     },
     {
       "archive": "RoleHOS_weights_without_sfsc_zero.zip",
       "sha256": "417498c7cf8c4f687dfe61a2b0afe58bcf844d4842aa3f51454f5ccae2402682",
-      "bytes": 379933050
+      "bytes": 379933050,
+      "google_drive_file_id": "1CKMDF9QGR2TUQxlmxYgU0dQ93OPf8egO",
+      "url": "https://drive.google.com/file/d/1CKMDF9QGR2TUQxlmxYgU0dQ93OPf8egO/view"
     },
     {
       "archive": "RoleHOS_weights_without_foreground_conditions.zip",
       "sha256": "c9caf044c3fa6aae0b6a98c0aff6f82dc9a015c6aa7ba0073f82e36bab51d8e8",
-      "bytes": 401323158
+      "bytes": 401323158,
+      "google_drive_file_id": "1GCRCeiDykQNj7VSHlt-IvLs1SL6flAjX",
+      "url": "https://drive.google.com/file/d/1GCRCeiDykQNj7VSHlt-IvLs1SL6flAjX/view"
     },
     {
       "archive": "RoleHOS_weights_p_only_zero.zip",
       "sha256": "abb8fe6d7865dcd02bed20755ca9752395a48154ee5f641fd7eb86c0e5fd1700",
-      "bytes": 401303628
+      "bytes": 401303628,
+      "google_drive_file_id": "17khg5qIysg9mUVqd0Fnph7rl4AhuE_gj",
+      "url": "https://drive.google.com/file/d/17khg5qIysg9mUVqd0Fnph7rl4AhuE_gj/view"
     },
     {
       "archive": "RoleHOS_weights_dense_only.zip",
       "sha256": "1024cdeb28a213655e89a24abe2465d7203c13f5fb56918a1d7c5709d4731628",
-      "bytes": 401302575
+      "bytes": 401302575,
+      "google_drive_file_id": "1Raar_CS7s0ITK-LPOQ3d89DIlBW532HQ",
+      "url": "https://drive.google.com/file/d/1Raar_CS7s0ITK-LPOQ3d89DIlBW532HQ/view"
     },
     {
       "archive": "RoleHOS_weights_global_only.zip",
       "sha256": "0915a1acd77de5f3fc62f0ed88e1b7d89974bfaa3707b91ba7f36b891209f4cf",
-      "bytes": 401303628
+      "bytes": 401303628,
+      "google_drive_file_id": "1fCtF1eQzhtaaH_QnaUawPJ-gp0hOBv2u",
+      "url": "https://drive.google.com/file/d/1fCtF1eQzhtaaH_QnaUawPJ-gp0hOBv2u/view"
     },
     {
       "archive": "RoleHOS_weights_p_only_weighted.zip",
       "sha256": "0ae24a74f5a6671b4bd5bee3abdb6a9f572e54963365b465b90ca025548bc9e8",
-      "bytes": 401307840
+      "bytes": 401307840,
+      "google_drive_file_id": "1-tyu3Zrv2ySQsVb0MNfqqT57Css8MgHU",
+      "url": "https://drive.google.com/file/d/1-tyu3Zrv2ySQsVb0MNfqqT57Css8MgHU/view"
     },
     {
       "archive": "RoleHOS_weights_token_ffn.zip",
       "sha256": "ffa76e0e5721b0091c3183d90c260417e994864ff328b4a80a7bfe1c8566085a",
-      "bytes": 388652370
+      "bytes": 388652370,
+      "google_drive_file_id": "1e2025WVuW_dvJCUbTjucVFeE__AtFWc2",
+      "url": "https://drive.google.com/file/d/1e2025WVuW_dvJCUbTjucVFeE__AtFWc2/view"
     },
     {
       "archive": "RoleHOS_weights_Q1_fixed5_noagg.zip",
       "sha256": "903b5dcabb34ab6f7d9fa629d30ccd406c389955d3cdad719843ffb2fef2202e",
-      "bytes": 401307840
+      "bytes": 401307840,
+      "google_drive_file_id": "13Fj4N9AJSI7g53BDSZqxa7UcEih-v3Fy",
+      "url": "https://drive.google.com/file/d/13Fj4N9AJSI7g53BDSZqxa7UcEih-v3Fy/view"
     },
     {
       "archive": "RoleHOS_weights_Q0_hungarian5_noagg.zip",
       "sha256": "7131ff7036ccba98c4b421e8fe6de031aec5d9ce278ef1247d155273f5834e0f",
-      "bytes": 401312052
+      "bytes": 401312052,
+      "google_drive_file_id": "1RuSe7kvPWXiON_gwH8IUewC4buXRxeUu",
+      "url": "https://drive.google.com/file/d/1RuSe7kvPWXiON_gwH8IUewC4buXRxeUu/view"
     }
   ]
 }

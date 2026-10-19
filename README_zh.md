@@ -8,7 +8,7 @@
 - [Google Drive权重目录：12种配置、每种3个种子](https://drive.google.com/drive/folders/1qylFVDv40EpEyo6JSRhAhpcej5M-VG0h)
 - [权重包SHA-256清单](weights/downloads.json)
 
-运行主模型或Gradio只需下载 `RoleHOS_weights_full.zip`；消融配置按需下载对应ZIP。在仓库根目录按下列命令提取模型文件，保留 `weights/<配置>/` 结构和仓库中的最新说明。压缩包另附冻结的清单与许可文件：
+运行主模型或Gradio只需下载 [RoleHOS_weights_full.zip](https://drive.google.com/file/d/1idTg-AdrRZ0OBhg0znCXJMIF6TI-zfQS/view)；消融配置按需下载对应ZIP。在仓库根目录按下列命令提取模型文件，保留 `weights/<配置>/` 结构和仓库中的最新说明。压缩包另附冻结的清单与许可文件：
 
 ```bash
 git clone https://github.com/ggoodd-any/RoleHOS.git

@@ -4,8 +4,8 @@
   "CONTRIBUTING.md": "5cd6302ea238b6986a223380b760581f8c1256ecc4b48c6733a94d29af99d338",
   "LICENSE": "ec73e3d88e1b9388d10e21da106675f849c37848441bc60cb03f2c2dbf8322bb",
   "NOTICE.md": "4ea61ab270791da56277b0708dea2c1158824444f0ff484d2ac62026a11469da",
-  "README.md": "e2ca464834b3234d7b106758e6e48da97cb7cffffc6fe9ce3d9b6c130be6feee",
-  "README_zh.md": "495f5647628f14b9fd294d1f7e1d642085a2f02d15140e9da0f2aa15d32d0b77",
+  "README.md": "dc441d0c752b98e07af2825d12a4fe9155c799d24d55ba976fb97bf2cbc8d0ab",
+  "README_zh.md": "c72ae2512ebdeef33598f7764ff417cd974576883939929999fbe7239b84bd1d",
   "app.py": "9b62ca1ec144d54944ba70fa98c4dc3de79ebbb6dd1f86c2d986cdf1a3e10476",
   "configs/Q0_hungarian5_noagg_seed0.py": "f1683f10ac10cdc946b1cbbf36c949071b7dd54291cdcbfd712567fb8dde47f9",
   "configs/Q0_hungarian5_noagg_seed1.py": "ae5915d5848412c23bba573eecf0ac90c902568f0d787a03cf83d3e6270fe823",
@@ -319,7 +319,7 @@
   "tools/summarize_runs.py": "fa41e579f88a5a8a5159715be088bc99595e0c7d93415ab0e95c1f5b33afdbab",
   "tools/train.py": "cdcce71abee7b6ec7f03ab5920fc62f84fc6e2be9bed2a15b918137d396854e8",
   "tools/verify_assets.py": "ff0eea1683086120b2c712bac8c977291068fa1f073473ad2ddafe322edcade1",
-  "weights/README.md": "2fa84d7c63ee7775783f4d29f638231e4066df839db21734715b54d8550274ba",
-  "weights/downloads.json": "0c2fff6f76872fdd2710297fdcb610d9da12b6f9f53c612c3b6751f0a8e9d0d3",
+  "weights/README.md": "bc4bf1e5747944766934063876bb84951bfc61079c43e3d99913a6f14373c4c1",
+  "weights/downloads.json": "7461791a6ea01f93f66125438fe5a807f6f5cc1e3444b9ca331722bd26daa12a",
   "weights/manifest.json": "97afd77501266e4b7904197886775bf89dc8588378cc5655ba7b43232ed1f061"
 }

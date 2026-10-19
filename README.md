@@ -12,7 +12,7 @@ This package contains the frozen ConvNeXt-Tiny / DINOv3 RoleHOS model, original 
 - [Google Drive: all 12 checkpoint archives](https://drive.google.com/drive/folders/1qylFVDv40EpEyo6JSRhAhpcej5M-VG0h)
 - [Archive SHA-256 checksums](weights/downloads.json)
 
-For inference or the Gradio demo, download **RoleHOS_weights_full.zip** (seeds 0, 1 and 2). For ablations, download the corresponding named ZIPs listed in [the ablation guide](docs/ABLATIONS.md). Extract each ZIP into the repository root, preserving its `weights/<configuration>/` layout:
+For inference or the Gradio demo, download **[RoleHOS_weights_full.zip](https://drive.google.com/file/d/1idTg-AdrRZ0OBhg0znCXJMIF6TI-zfQS/view)** (seeds 0, 1 and 2). For ablations, download the corresponding named ZIPs listed in [the ablation guide](docs/ABLATIONS.md). Extract each ZIP into the repository root, preserving its `weights/<configuration>/` layout:
 
 ```bash
 git clone https://github.com/ggoodd-any/RoleHOS.git
