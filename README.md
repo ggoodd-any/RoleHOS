@@ -17,10 +17,10 @@ For inference or the Gradio demo, download **RoleHOS_weights_full.zip** (seeds 0
 ```bash
 git clone https://github.com/ggoodd-any/RoleHOS.git
 cd RoleHOS
-unzip /path/to/RoleHOS_weights_full.zip -d .
+unzip /path/to/RoleHOS_weights_full.zip 'weights/*/*.pth' -d .
 ```
 
-The archives include checkpoint manifests and required third-party license notices. Run `python -m tools.verify_assets` after environment setup; `--require-all` checks all 36 checkpoints. The public repository does not redistribute dataset images: upload your own RGB image in Gradio, or restore the six curated examples from your licensed dataset using `python -m tools.import_examples --data-root /path/to/egohos`.
+The archives include frozen checkpoint manifests and required third-party license notices. The command above extracts model files only, preserving the repository's current documentation and manifests. Run `python -m tools.verify_assets` after environment setup; `--require-all` checks all 36 checkpoints. The public repository does not redistribute dataset images: upload your own RGB image in Gradio, or restore the six curated examples from your licensed dataset using `python -m tools.import_examples --data-root /path/to/egohos`.
 
 ## Environment
 

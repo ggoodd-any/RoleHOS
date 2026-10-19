@@ -8,12 +8,12 @@
 - [Google Drive权重目录：12种配置、每种3个种子](https://drive.google.com/drive/folders/1qylFVDv40EpEyo6JSRhAhpcej5M-VG0h)
 - [权重包SHA-256清单](weights/downloads.json)
 
-运行主模型或Gradio只需下载 `RoleHOS_weights_full.zip`；消融配置按需下载对应ZIP。在仓库根目录解压，保留 `weights/<配置>/` 结构：
+运行主模型或Gradio只需下载 `RoleHOS_weights_full.zip`；消融配置按需下载对应ZIP。在仓库根目录按下列命令提取模型文件，保留 `weights/<配置>/` 结构和仓库中的最新说明。压缩包另附冻结的清单与许可文件：
 
 ```bash
 git clone https://github.com/ggoodd-any/RoleHOS.git
 cd RoleHOS
-unzip /path/to/RoleHOS_weights_full.zip -d .
+unzip /path/to/RoleHOS_weights_full.zip 'weights/*/*.pth' -d .
 ```
 
 公开仓库不再分发数据集原图。可直接上传自己的RGB图像，或取得数据集后运行 `python -m tools.import_examples --data-root /path/to/egohos` 恢复六张精选样图。
